@@ -20,4 +20,22 @@ git clone https://github.com/strencher-kernel/bd-compat
 git clone https://github.com/strencher-kernel/pc-compat
 cd pc-compat
 pnpm initialize
-cd ..
+cd ../..
+mkdir powercord
+cd powercord
+mkdir plugins
+cd plugins
+git clone https://github.com/12944qwerty/betterInvites
+git clone https://github.com/asportnoy/CanaryLinks
+git clone https://github.com/TaiAurori/embed-redirect
+git clone https://github.com/asportnoy/mention-cache-fix
+git clone https://github.com/CumcordLoaders/Powercord
+git clone https://github.com/Bricklou/powercord-pindms
+git clone https://github.com/VenPlugs/PowercordTwemojiEverywhere
+git clone https://github.com/discord-modifications/spotify-crack
+cd ../..
+mkdir betterdiscord
+cd betterdiscord
+mkdir plugins
+cd plugins
+powershell Invoke-WebRequest https://github.com/WmeLuna/Discord-Kernel-Linux-Guide/raw/master/honkloader.plugin.js -O honkloader.plugin.js
