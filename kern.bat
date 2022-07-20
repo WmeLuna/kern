@@ -43,6 +43,7 @@ cd betterdiscord
 mkdir config
 cd config
 powershell Invoke-WebRequest https://github.com/WmeLuna/kern/raw/main/json/betterdiscord.json -O pluginsStates.json
+cd ..
 mkdir plugins
 cd plugins
 powershell Invoke-WebRequest https://github.com/WmeLuna/Discord-Kernel-Linux-Guide/raw/master/honkloader.plugin.js -O honkloader.plugin.js
