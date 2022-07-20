@@ -33,9 +33,16 @@ git clone https://github.com/CumcordLoaders/Powercord
 git clone https://github.com/Bricklou/powercord-pindms
 git clone https://github.com/VenPlugs/PowercordTwemojiEverywhere
 git clone https://github.com/discord-modifications/spotify-crack
+cd ..
+mkdir settings
+cd settings
+powershell Invoke-WebRequest https://github.com/WmeLuna/kern/raw/main/json/powercord.json -O plugins.json
 cd ../..
 mkdir betterdiscord
 cd betterdiscord
+mkdir config
+cd config
+powershell Invoke-WebRequest https://github.com/WmeLuna/kern/raw/main/json/betterdiscord.json -O pluginsStates.json
 mkdir plugins
 cd plugins
 powershell Invoke-WebRequest https://github.com/WmeLuna/Discord-Kernel-Linux-Guide/raw/master/honkloader.plugin.js -O honkloader.plugin.js
